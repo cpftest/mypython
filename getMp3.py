@@ -44,7 +44,7 @@ class MyHTMLParser(HTMLParser):
 def myDown():
 	#生成下载页面连接
 	for i in range(202,399):
-		tmpUrl='http://www.ting56.com/video/12204-0-'+str(i)+'.html'
+		tmpUrl='http://www.xxxx.com/video/12204-0-'+str(i)+'.html'
 		print(tmpUrl)
 		dfile=str(i)+'.m4a'
 
